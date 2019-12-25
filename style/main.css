@@ -10,7 +10,8 @@ html, body {
 
 body {
   align-items: center;
-  display: flex; }
+  display: flex;
+  overflow: hidden; }
   
 .heading:after {
   content: "";
