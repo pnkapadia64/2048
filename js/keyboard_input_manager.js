@@ -57,7 +57,7 @@ KeyboardInputManager.prototype.listen = function () {
 
     if (!modifiers) {
       if (mapped !== undefined) {
-        event.preventDefault();
+        // event.preventDefault();
         self.emit("move", mapped);
       }
     }
